@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "chekchek",
+    "slug": "chekchek",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/splash.png",
+    "scheme": "myapp",
+    "android": {
+      "splash": {
+        "mdpi": "./assets/images/mdpi/splash.png",
+        "hdpi": "./assets/images/hdpi/splash.png",
+        "xhdpi": "./assets/images/xhdpi/splash.png",
+        "xxhdpi": "./assets/images/xxhdpi/splash.png",
+        "xxxhdpi": "./assets/images/xxxhdpi/splash.png",
+      "backgroundColor": "#ffffff"
+      }
+    },
+    "ios": {
+      "mdpi": "./assets/images/mdpi/splash.png",
+        "hdpi": "./assets/images/hdpi/splash.png",
+        "xhdpi": "./assets/images/xhdpi/splash.png",
+        "xxhdpi": "./assets/images/xxhdpi/splash.png",
+        "xxxhdpi": "./assets/images/xxxhdpi/splash.png",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
